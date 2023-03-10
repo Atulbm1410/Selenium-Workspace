@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-04T15:10:46 IST" name="Suite" finished-at="2023-03-04T15:11:00 IST" duration-ms="14294">
+    <groups>
+    </groups>
+    <test started-at="2023-03-04T15:10:46 IST" name="ChromeTestRunner" finished-at="2023-03-04T15:10:50 IST" duration-ms="4705">
+      <class name="testNG.LoginActiTime">
+        <test-method signature="loginToAtiTime(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNG.LoginActiTime@55536d9e]" started-at="2023-03-04T15:10:46 IST" name="loginToAtiTime" finished-at="2023-03-04T15:10:50 IST" duration-ms="4616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAtiTime -->
+      </class> <!-- testNG.LoginActiTime -->
+    </test> <!-- ChromeTestRunner -->
+    <test started-at="2023-03-04T15:10:50 IST" name="FirefoxTestRunner" finished-at="2023-03-04T15:11:00 IST" duration-ms="9532">
+      <class name="testNG.LoginActiTime">
+        <test-method signature="loginToAtiTime(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNG.LoginActiTime@78123e82]" started-at="2023-03-04T15:10:50 IST" name="loginToAtiTime" finished-at="2023-03-04T15:11:00 IST" duration-ms="9524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAtiTime -->
+      </class> <!-- testNG.LoginActiTime -->
+    </test> <!-- FirefoxTestRunner -->
+  </suite> <!-- Suite -->
+</testng-results>
